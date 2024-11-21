@@ -1,0 +1,12 @@
+:root {
+    --default-blue: hsl(222, 100%, 25%);
+}
+body {
+    background-color: hsl(217, 50%, 97%);
+}
+.not-authorised {
+    background-color: hsl(0, 0%, 100%);
+    &__content {
+        color: var(--default-blue);
+    }
+}

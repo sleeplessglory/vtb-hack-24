@@ -1,0 +1,5 @@
+@use '../util/functions' as f;
+.not-authorised {
+    font-weight: 700;
+    font-size: f.rem(24);
+}
